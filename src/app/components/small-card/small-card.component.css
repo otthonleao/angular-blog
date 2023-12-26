@@ -13,6 +13,8 @@
   width: 200px;
   min-width: 200px;
   margin-right: 20px;
+  object-fit: contain;
+  background-color: #252525;
 }
 
 .small-card__title {
@@ -20,6 +22,7 @@
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
+  line-height: normal;
 }
 
 .container__small-card__separator {
