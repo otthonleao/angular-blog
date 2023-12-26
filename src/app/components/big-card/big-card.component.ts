@@ -16,6 +16,5 @@ export class BigCardComponent implements OnInit {
   cardDescription: string = "";
 
   ngOnInit(): void {
-    throw new Error("Method not implemented.");
   }
 }
