@@ -27,7 +27,7 @@
 	line-height: normal;
 }
 
-.content__description > p {
+.content__description > p > a {
 	margin-top: 20px;
 	color: rgb(184, 184, 184);
 }
