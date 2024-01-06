@@ -1,9 +1,27 @@
 <div class="container__menu-bar">
   <ul>
+	<li>
+		<a
+			[routerLink]="['']"
+			[routerLinkActive]="['activated']"
+			[routerLinkActiveOptions]="{ exact: true}"
+			>Home
+		</a>
+	</li>
+	<li><span>•</span></li>
     <li><a href="https://www.linkedin.com/in/otthonleao/" target="_blank">Linkedin</a></li>
     <li><span>•</span></li>
     <li><a href="https://github.com/otthonleao" target="_blank">Github</a></li>
     <li><span>•</span></li>
     <li><a href="https://www.youtube.com/@devotthon" target="_blank">YouTube</a></li>
+	<li><span>•</span></li>
+	<li>
+		<a
+			[routerLink]="['contatos']"
+			[routerLinkActive]="['activated']"
+			[routerLinkActiveOptions]="{ exact: true}"
+			>Contatos
+		</a>
+	</li>
   </ul>
 </div>
